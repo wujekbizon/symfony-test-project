@@ -9,6 +9,6 @@ final readonly class Starship
     public string $name,
     public string $class,
     public string $captain,
-    public string $status,
+    public StarshipStatusEnum $status,
   ) {}
 }
